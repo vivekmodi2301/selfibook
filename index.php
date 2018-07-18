@@ -1,0 +1,20 @@
+<?php
+	session_start();
+	include_once("config.php");
+	include_once("function.php");
+	include_once("header.php");
+	if(!isset($_SESSION['ulogin'])){
+	$mod="userlogin";
+	$do="login";
+	}
+	else{
+		$mod="page";
+		$do="timeline";	
+	}
+	if(isset($_GET['mod'])){
+		$mod=$_GET['mod'];
+		$do=$_GET['do'];
+	}
+	include_once("module/$mod/$do.php");
+	include_once("footer.php");
+?>	

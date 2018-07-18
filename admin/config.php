@@ -1,0 +1,10 @@
+<?php
+	define('ROOT','http://localhost/selfibook/',true);
+	define('CSS',ROOT.'css/',true);
+	define('UIMAGE',ROOT.'upphotos/',true);
+	define('IMAGE',ROOT.'image/',true);
+	define('HOSTNAME','localhost',true);
+	define('USERNAME','root',true);
+	define('PASSWORD','',true);
+	define('DB','selfibook',true);
+?>

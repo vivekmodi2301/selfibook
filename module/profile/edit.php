@@ -1,0 +1,11 @@
+<?php
+	if(isset($_SESSION['ulogin'])){
+		$id=$_SESSION['ulogin']['id'];
+		addEdit('profile',$_POST,$id);	
+		?>
+        	<script>
+				location.href="index.php?mod=profile&do=profile";
+			</script>
+        <?php
+	}
+?>

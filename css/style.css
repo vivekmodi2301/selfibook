@@ -1,0 +1,207 @@
+*{
+	margin:0px;
+	padding:0px;	
+}
+.main{
+	height:100%;	
+	width:100%;
+}
+.main .header{
+	height:80px;
+	background-color:#3b5998;
+}
+.main .middle{
+	background-color:#F8F8F8;
+}
+.main .header tr td ul, .main .middle .submenu ul{
+	display:inline;	
+}
+.main .middle .submenu{
+	margin:15px 0px 10px 40%;	
+}
+.main .header td ul li, .main .middle .submenu ul li{
+	float:left;
+	list-style:none;	
+	margin-left:15px;
+	font-size:18px;
+}
+.main .header td ul li a, .main .middle .submenu ul a{
+	text-decoration:none;
+	color:#7A4CA3;
+}
+.main .header td ul li a{
+	color:#fff;	
+}
+.main .middle .submenu ul a{
+	padding-left:20px;
+	font-size:20px;	
+}
+.main .middle td .log{
+	display:inline;	
+}
+.main .middle td .log .login{
+	float:left;
+	margin-left:10%;
+	margin-top:20px;
+	font-size:20px;
+	color:#930;	
+}
+.main .middle td .log .login table,.main .middle td .log .signin table{
+	font-size:20px;	
+}
+.main .middle td .log .login input[type="text"],.main .middle td .log .signin input[type="text"],.main .header input[type="text"]{
+				background-color:#fff;
+				color:#000;
+				width:260px;
+				margin-top:15px;
+				margin-bottom:5px;
+				margin-left:10px;
+			}
+			.main .middle td .log .login input[type="password"],.main .middle td .log .signin input[type="password"],.main .middle td .log .signin input[type="email"],.main .middle td .log .login input[type="date"], .main .header input[type="password"]{
+				background-color:#fff;
+				margin-top:15px;
+				color:#000;
+				width:260px;
+				margin-bottom:10px;
+				margin-left:10px;
+			}
+			select{
+				margin-left:10px;	
+				margin-top:10px;
+			}
+			h1{
+				text-align:center;
+				margin-top:10px;
+				color:#F00;	
+			}
+			input[type="radio"]{
+				margin-bottom:5px;
+				margin-left:10px;
+			}
+			input[type="file"]{
+				margin-bottom:5px;
+				margin-left:10px;
+			}
+			.main .middle td .log .login input[type="submit"],.main .middle td .log .signin input[type="submit"]{
+				margin-left:165px;
+				background:#cadaf4;
+				width:70px;
+				height:35px;
+				margin-bottom:15px;
+			}
+			input[type="button"]{
+				background:#cadaf4;
+				width:70px;
+				height:35px;
+				
+			}
+			.main .header input[type="text"]{
+				width:150px;
+			}
+			.main .header input[type="password"]{
+				width:150px;	
+			}
+.main .middle td .log .signin{
+	float:left;
+	margin-left:20%;
+	margin-top:20px;	
+	font-size:20px;
+	color:#930;
+}#searchbox
+{
+    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    overflow: hidden; /* Clear floats */
+}
+.main .header img{
+	margin-left:10px;	
+}
+.showpass{
+	font-size:16px;	
+}
+.main .middle .about{
+	background-color:#fff;	
+}
+.main .middle .about table th{
+	font-size:30px;
+}
+.profile{
+	margin:60px 0px 30px 0px;
+	padding:10px 0px 5px 0px;
+	background-color:#f8f8f8; /* For browsers that do not support gradients */
+	-webkit-box-shadow: 0 0 10px 10px #CCCCCC;
+    -moz-box-shadow: 0 0 10px 10px #CCCCCC;
+    box-shadow: 0 0 10px 10px #CCCCCC;	
+}
+.main .middle .about .profile .bapro tr th, .main .middle .about .profile .edupro tr th{
+	font-size:17px;
+	text-align:left;
+	color:blue;
+	padding-left:15px;
+}
+.main .middle .button input[type="button"]{
+	width:500px;
+	margin-left:30%;
+	margin-top:10px;
+	color:#FFF;
+	font-size:18px;
+}
+.main .middle #photos{
+	margin:10px 0px 0px 30%;
+}
+.main .middle .photoshow{
+	margin:0px auto;
+	margin-top:30px;
+	margin-bottom:30PX;
+	background-color:#f8f8f8; /* For browsers that do not support gradients */
+	-webkit-box-shadow: 0 0 10px 10px #666;
+    -moz-box-shadow: 0 0 10px 10px #666;
+    box-shadow: 0 0 10px 10px #666;
+}
+.main .middle .alogin{
+	margin:0px auto;
+	margin-top:40px;
+	width:40%;
+	text-align:center;
+	height:300px;	
+}
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	color:#CCC;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.main .middle .friends{
+	background-color:#FFF;
+	width:32%;
+	margin:20px 5px 10px 10px;
+}
+.main .middle .friend{
+	display:inline;	
+}
+.main .middle .friend table {
+	float:left;
+}
+
+/*===============================Footer CSS Put it at bottum always================== */
+#pg{CLEAR: both;MARGIN: 2em 0px 2em 12px;COLOR: #3666d4;HEIGHT: 2em}
+#pg A{BORDER-RIGHT: #ccdbe4 1px solid;PADDING-RIGHT: 8px;BORDER-TOP: #ccdbe4 1px solid;DISPLAY: block;PADDING-LEFT: 8px;FLOAT: left;PADDING-BOTTOM: 2px;MARGIN: 0px 5px 0px 0px;BORDER-LEFT: #ccdbe4 1px solid;COLOR: #3666d4;PADDING-TOP: 2px;BORDER-BOTTOM: #ccdbe4 1px solid;TEXT-ALIGN: center;TEXT-DECORATION: none}
+#pg STRONG{BORDER-RIGHT: #ccdbe4 1px solid;PADDING-RIGHT: 8px;BORDER-TOP: #ccdbe4 1px solid;DISPLAY: block;PADDING-LEFT: 8px;FLOAT: left;PADDING-BOTTOM: 2px;MARGIN: 0px 5px 0px 0px;BORDER-LEFT: #ccdbe4 1px solid;COLOR: #3666d4;PADDING-TOP: 2px;BORDER-BOTTOM: #ccdbe4 1px solid;TEXT-ALIGN: center;TEXT-DECORATION: none}
+#pg A:hover{BORDER-LEFT-COLOR: #2b55af;BACKGROUND: #3666d4;BORDER-BOTTOM-COLOR: #2b55af;COLOR: #fff;BORDER-TOP-COLOR: #2b55af;BORDER-RIGHT-COLOR: #2b55af}
+#pg STRONG{BORDER-RIGHT: 0px;PADDING-RIGHT: 6px;BORDER-TOP: 0px;PADDING-LEFT: 6px;FONT-WEIGHT: bold;FONT-SIZE: 108%;PADDING-BOTTOM: 2px;BORDER-LEFT: 0px;COLOR: #000;PADDING-TOP: 2px;BORDER-BOTTOM: 0px}
+#pg-next{BORDER-TOP-WIDTH: 2px;MARGIN-TOP: -2px;BORDER-LEFT-WIDTH: 2px;BORDER-BOTTOM-WIDTH: 2px;PADDING-BOTTOM: 1px;PADDING-TOP: 1px;BORDER-RIGHT-WIDTH: 2px}
+#pg-prev{BORDER-TOP-WIDTH: 2px;MARGIN-TOP: -2px;BORDER-LEFT-WIDTH: 2px;BORDER-BOTTOM-WIDTH: 2px;PADDING-BOTTOM: 1px;PADDING-TOP: 1px;BORDER-RIGHT-WIDTH: 2px; background-color:#CC0066}
+#pg-next{MARGIN-LEFT: 9px} 
+#pg-prev{MARGIN-RIGHT: 14px}
+#pg-selected { background-color:#CC99FF }

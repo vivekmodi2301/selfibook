@@ -1,0 +1,10 @@
+<?php
+	session_start();
+	include_once("config.php");
+	include_once("function.php");
+	include_once("header.php");
+	$mod=alogin;
+	$do=login;
+	include_once("module/$mod/$do.php");
+	include_once("footer.php");
+?>
